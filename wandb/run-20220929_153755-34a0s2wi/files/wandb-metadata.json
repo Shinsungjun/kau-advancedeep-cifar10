@@ -1,0 +1,18 @@
+{
+    "os": "Linux-5.4.0-99-generic-x86_64-with-glibc2.29",
+    "python": "3.8.10",
+    "heartbeatAt": "2022-09-29T15:37:56.407247",
+    "startedAt": "2022-09-29T15:37:55.420789",
+    "docker": null,
+    "gpu": "NVIDIA RTX A5000",
+    "gpu_count": 2,
+    "cpu_count": 40,
+    "cuda": null,
+    "args": [],
+    "state": "running",
+    "program": "train.py",
+    "codePath": "train.py",
+    "host": "cheetah-6169636c6f7073-e3qsy3-cbffd6745-xgn7r",
+    "username": "jovyan",
+    "executable": "/home/jovyan/.venv/torch1.10.0-py3.8-cuda11.3/bin/python"
+}

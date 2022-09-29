@@ -1,0 +1,11 @@
+
+
+Validating:  50%|████████████████████████████████████████████████████████████████████████████████████▌                                                                                    | 20/40 [00:00<00:00, 74.91it/s]
+
+Validating:  50%|████████████████████████████████████████████████████████████████████████████████████▌                                                                                    | 20/40 [00:00<00:00, 63.94it/s]
+
+Validating:  50%|████████████████████████████████████████████████████████████████████████████████████▌                                                                                    | 20/40 [00:00<00:00, 64.13it/s]
+
+Validating:   0%|                                                                                                                                                                                  | 0/40 [00:00<?, ?it/s]
+/home/jovyan/.venv/torch1.10.0-py3.8-cuda11.3/lib/python3.8/site-packages/pytorch_lightning/plugins/training_type/ddp_spawn.py:307: UserWarning: cleaning up ddp environment...
+  rank_zero_warn("cleaning up ddp environment...")

@@ -1,0 +1,373 @@
+2022-09-29 15:24:46,997 INFO    StreamThr :26798 [internal.py:wandb_internal():88] W&B internal server running at pid: 26798, started at: 2022-09-29 15:24:46.996471
+2022-09-29 15:24:47,000 DEBUG   HandlerThread:26798 [handler.py:handle_request():138] handle_request: status
+2022-09-29 15:24:47,003 DEBUG   SenderThread:26798 [sender.py:send_request():315] send_request: status
+2022-09-29 15:24:47,008 DEBUG   SenderThread:26798 [sender.py:send():301] send: header
+2022-09-29 15:24:47,008 INFO    WriterThread:26798 [datastore.py:open_for_write():75] open: /home/jovyan/sungjun/wandb/run-20220929_152446-27jbvsci/run-27jbvsci.wandb
+2022-09-29 15:24:47,009 DEBUG   SenderThread:26798 [sender.py:send():301] send: run
+2022-09-29 15:24:47,014 INFO    SenderThread:26798 [sender.py:_maybe_setup_resume():577] checking resume status for holyjoon/2022707002_SSJ_cifar10/27jbvsci
+2022-09-29 15:24:47,720 INFO    SenderThread:26798 [dir_watcher.py:__init__():216] watching files in: /home/jovyan/sungjun/wandb/run-20220929_152446-27jbvsci/files
+2022-09-29 15:24:47,720 INFO    SenderThread:26798 [sender.py:_start_run_threads():912] run started: 27jbvsci with start time 1664465087.000048
+2022-09-29 15:24:47,721 DEBUG   SenderThread:26798 [sender.py:send():301] send: summary
+2022-09-29 15:24:47,722 INFO    SenderThread:26798 [sender.py:_save_file():1155] saving file wandb-summary.json with policy end
+2022-09-29 15:24:47,728 DEBUG   HandlerThread:26798 [handler.py:handle_request():138] handle_request: check_version
+2022-09-29 15:24:47,728 DEBUG   SenderThread:26798 [sender.py:send_request():315] send_request: check_version
+2022-09-29 15:24:47,811 DEBUG   HandlerThread:26798 [handler.py:handle_request():138] handle_request: run_start
+2022-09-29 15:24:47,813 DEBUG   HandlerThread:26798 [meta.py:__init__():34] meta init
+2022-09-29 15:24:47,813 DEBUG   HandlerThread:26798 [meta.py:__init__():49] meta init done
+2022-09-29 15:24:47,813 DEBUG   HandlerThread:26798 [meta.py:probe():215] probe
+2022-09-29 15:24:47,815 DEBUG   HandlerThread:26798 [git.py:repo():40] git repository is invalid
+2022-09-29 15:24:47,815 DEBUG   HandlerThread:26798 [meta.py:_save_pip():53] save pip
+2022-09-29 15:24:47,817 DEBUG   HandlerThread:26798 [meta.py:_save_pip():67] save pip done
+2022-09-29 15:24:47,818 DEBUG   HandlerThread:26798 [meta.py:probe():253] probe done
+2022-09-29 15:24:47,821 DEBUG   SenderThread:26798 [sender.py:send():301] send: files
+2022-09-29 15:24:47,821 INFO    SenderThread:26798 [sender.py:_save_file():1155] saving file wandb-metadata.json with policy now
+2022-09-29 15:24:47,834 DEBUG   HandlerThread:26798 [handler.py:handle_request():138] handle_request: stop_status
+2022-09-29 15:24:47,835 DEBUG   SenderThread:26798 [sender.py:send_request():315] send_request: stop_status
+2022-09-29 15:24:47,845 DEBUG   HandlerThread:26798 [handler.py:handle_request():138] handle_request: partial_history
+2022-09-29 15:24:48,062 DEBUG   SenderThread:26798 [sender.py:send():301] send: telemetry
+2022-09-29 15:24:48,063 DEBUG   SenderThread:26798 [sender.py:send():301] send: metric
+2022-09-29 15:24:48,064 DEBUG   SenderThread:26798 [sender.py:send():301] send: telemetry
+2022-09-29 15:24:48,064 DEBUG   SenderThread:26798 [sender.py:send():301] send: metric
+2022-09-29 15:24:48,064 WARNING SenderThread:26798 [sender.py:send_metric():1111] Seen metric with glob (shouldn't happen)
+2022-09-29 15:24:48,064 DEBUG   SenderThread:26798 [sender.py:send():301] send: metric
+2022-09-29 15:24:48,064 DEBUG   SenderThread:26798 [sender.py:send():301] send: metric
+2022-09-29 15:24:48,065 DEBUG   SenderThread:26798 [sender.py:send():301] send: metric
+2022-09-29 15:24:48,065 DEBUG   SenderThread:26798 [sender.py:send():301] send: history
+2022-09-29 15:24:48,065 DEBUG   SenderThread:26798 [sender.py:send():301] send: summary
+2022-09-29 15:24:48,070 INFO    SenderThread:26798 [sender.py:_save_file():1155] saving file wandb-summary.json with policy end
+2022-09-29 15:24:48,467 INFO    Thread-32 :26798 [upload_job.py:push():139] Uploaded file /tmp/tmp7gut88vawandb/vzihl723-wandb-metadata.json
+2022-09-29 15:24:48,530 DEBUG   HandlerThread:26798 [handler.py:handle_request():138] handle_request: stop_status
+2022-09-29 15:24:48,531 DEBUG   SenderThread:26798 [sender.py:send_request():315] send_request: stop_status
+2022-09-29 15:24:48,724 INFO    Thread-28 :26798 [dir_watcher.py:_on_file_created():275] file/dir created: /home/jovyan/sungjun/wandb/run-20220929_152446-27jbvsci/files/wandb-metadata.json
+2022-09-29 15:24:48,725 INFO    Thread-28 :26798 [dir_watcher.py:_on_file_created():275] file/dir created: /home/jovyan/sungjun/wandb/run-20220929_152446-27jbvsci/files/requirements.txt
+2022-09-29 15:24:48,725 INFO    Thread-28 :26798 [dir_watcher.py:_on_file_created():275] file/dir created: /home/jovyan/sungjun/wandb/run-20220929_152446-27jbvsci/files/wandb-summary.json
+2022-09-29 15:24:49,300 DEBUG   SenderThread:26798 [sender.py:send():301] send: metric
+2022-09-29 15:24:49,300 DEBUG   SenderThread:26798 [sender.py:send():301] send: metric
+2022-09-29 15:24:49,301 WARNING SenderThread:26798 [sender.py:send_metric():1111] Seen metric with glob (shouldn't happen)
+2022-09-29 15:24:49,301 DEBUG   HandlerThread:26798 [handler.py:handle_request():138] handle_request: partial_history
+2022-09-29 15:24:49,302 DEBUG   SenderThread:26798 [sender.py:send():301] send: history
+2022-09-29 15:24:49,303 DEBUG   SenderThread:26798 [sender.py:send():301] send: summary
+2022-09-29 15:24:49,304 INFO    SenderThread:26798 [sender.py:_save_file():1155] saving file wandb-summary.json with policy end
+2022-09-29 15:24:49,723 INFO    Thread-28 :26798 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/jovyan/sungjun/wandb/run-20220929_152446-27jbvsci/files/wandb-summary.json
+2022-09-29 15:24:50,752 DEBUG   HandlerThread:26798 [handler.py:handle_request():138] handle_request: partial_history
+2022-09-29 15:24:50,752 DEBUG   SenderThread:26798 [sender.py:send():301] send: metric
+2022-09-29 15:24:50,754 DEBUG   SenderThread:26798 [sender.py:send():301] send: metric
+2022-09-29 15:24:50,754 WARNING SenderThread:26798 [sender.py:send_metric():1111] Seen metric with glob (shouldn't happen)
+2022-09-29 15:24:50,754 DEBUG   SenderThread:26798 [sender.py:send():301] send: history
+2022-09-29 15:24:50,755 DEBUG   SenderThread:26798 [sender.py:send():301] send: summary
+2022-09-29 15:24:50,762 INFO    SenderThread:26798 [sender.py:_save_file():1155] saving file wandb-summary.json with policy end
+2022-09-29 15:24:51,725 INFO    Thread-28 :26798 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/jovyan/sungjun/wandb/run-20220929_152446-27jbvsci/files/wandb-summary.json
+2022-09-29 15:24:52,083 DEBUG   HandlerThread:26798 [handler.py:handle_request():138] handle_request: partial_history
+2022-09-29 15:24:52,084 DEBUG   SenderThread:26798 [sender.py:send():301] send: metric
+2022-09-29 15:24:52,085 DEBUG   SenderThread:26798 [sender.py:send():301] send: metric
+2022-09-29 15:24:52,086 WARNING SenderThread:26798 [sender.py:send_metric():1111] Seen metric with glob (shouldn't happen)
+2022-09-29 15:24:52,086 DEBUG   SenderThread:26798 [sender.py:send():301] send: history
+2022-09-29 15:24:52,086 DEBUG   SenderThread:26798 [sender.py:send():301] send: summary
+2022-09-29 15:24:52,088 INFO    SenderThread:26798 [sender.py:_save_file():1155] saving file wandb-summary.json with policy end
+2022-09-29 15:24:52,726 INFO    Thread-28 :26798 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/jovyan/sungjun/wandb/run-20220929_152446-27jbvsci/files/wandb-summary.json
+2022-09-29 15:24:53,433 DEBUG   SenderThread:26798 [sender.py:send():301] send: metric
+2022-09-29 15:24:53,433 DEBUG   HandlerThread:26798 [handler.py:handle_request():138] handle_request: partial_history
+2022-09-29 15:24:53,434 DEBUG   SenderThread:26798 [sender.py:send():301] send: metric
+2022-09-29 15:24:53,435 WARNING SenderThread:26798 [sender.py:send_metric():1111] Seen metric with glob (shouldn't happen)
+2022-09-29 15:24:53,435 DEBUG   SenderThread:26798 [sender.py:send():301] send: history
+2022-09-29 15:24:53,436 DEBUG   SenderThread:26798 [sender.py:send():301] send: summary
+2022-09-29 15:24:53,442 INFO    SenderThread:26798 [sender.py:_save_file():1155] saving file wandb-summary.json with policy end
+2022-09-29 15:24:53,727 INFO    Thread-28 :26798 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/jovyan/sungjun/wandb/run-20220929_152446-27jbvsci/files/wandb-summary.json
+2022-09-29 15:24:54,727 DEBUG   HandlerThread:26798 [handler.py:handle_request():138] handle_request: partial_history
+2022-09-29 15:24:54,727 DEBUG   SenderThread:26798 [sender.py:send():301] send: metric
+2022-09-29 15:24:54,729 DEBUG   SenderThread:26798 [sender.py:send():301] send: metric
+2022-09-29 15:24:54,729 WARNING SenderThread:26798 [sender.py:send_metric():1111] Seen metric with glob (shouldn't happen)
+2022-09-29 15:24:54,729 DEBUG   SenderThread:26798 [sender.py:send():301] send: history
+2022-09-29 15:24:54,730 DEBUG   SenderThread:26798 [sender.py:send():301] send: summary
+2022-09-29 15:24:54,731 INFO    SenderThread:26798 [sender.py:_save_file():1155] saving file wandb-summary.json with policy end
+2022-09-29 15:24:55,732 INFO    Thread-28 :26798 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/jovyan/sungjun/wandb/run-20220929_152446-27jbvsci/files/wandb-summary.json
+2022-09-29 15:24:56,059 DEBUG   HandlerThread:26798 [handler.py:handle_request():138] handle_request: partial_history
+2022-09-29 15:24:56,059 DEBUG   SenderThread:26798 [sender.py:send():301] send: metric
+2022-09-29 15:24:56,061 DEBUG   SenderThread:26798 [sender.py:send():301] send: metric
+2022-09-29 15:24:56,061 WARNING SenderThread:26798 [sender.py:send_metric():1111] Seen metric with glob (shouldn't happen)
+2022-09-29 15:24:56,061 DEBUG   SenderThread:26798 [sender.py:send():301] send: history
+2022-09-29 15:24:56,062 DEBUG   SenderThread:26798 [sender.py:send():301] send: summary
+2022-09-29 15:24:56,069 INFO    SenderThread:26798 [sender.py:_save_file():1155] saving file wandb-summary.json with policy end
+2022-09-29 15:24:56,670 DEBUG   HandlerThread:26798 [handler.py:handle_request():138] handle_request: partial_history
+2022-09-29 15:24:56,671 DEBUG   SenderThread:26798 [sender.py:send():301] send: metric
+2022-09-29 15:24:56,674 DEBUG   SenderThread:26798 [sender.py:send():301] send: metric
+2022-09-29 15:24:56,674 WARNING SenderThread:26798 [sender.py:send_metric():1111] Seen metric with glob (shouldn't happen)
+2022-09-29 15:24:56,674 DEBUG   SenderThread:26798 [sender.py:send():301] send: metric
+2022-09-29 15:24:56,675 DEBUG   SenderThread:26798 [sender.py:send():301] send: metric
+2022-09-29 15:24:56,675 DEBUG   SenderThread:26798 [sender.py:send():301] send: history
+2022-09-29 15:24:56,675 DEBUG   SenderThread:26798 [sender.py:send():301] send: summary
+2022-09-29 15:24:56,677 INFO    SenderThread:26798 [sender.py:_save_file():1155] saving file wandb-summary.json with policy end
+2022-09-29 15:24:56,793 INFO    Thread-28 :26798 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/jovyan/sungjun/wandb/run-20220929_152446-27jbvsci/files/wandb-summary.json
+2022-09-29 15:24:56,801 INFO    Thread-28 :26798 [dir_watcher.py:_on_file_created():275] file/dir created: /home/jovyan/sungjun/wandb/run-20220929_152446-27jbvsci/files/output.log
+2022-09-29 15:24:56,807 DEBUG   HandlerThread:26798 [handler.py:handle_request():138] handle_request: partial_history
+2022-09-29 15:24:56,810 DEBUG   SenderThread:26798 [sender.py:send():301] send: metric
+2022-09-29 15:24:56,810 DEBUG   SenderThread:26798 [sender.py:send():301] send: metric
+2022-09-29 15:24:56,810 WARNING SenderThread:26798 [sender.py:send_metric():1111] Seen metric with glob (shouldn't happen)
+2022-09-29 15:24:56,811 DEBUG   SenderThread:26798 [sender.py:send():301] send: metric
+2022-09-29 15:24:56,811 DEBUG   SenderThread:26798 [sender.py:send():301] send: metric
+2022-09-29 15:24:56,811 DEBUG   SenderThread:26798 [sender.py:send():301] send: history
+2022-09-29 15:24:56,812 DEBUG   SenderThread:26798 [sender.py:send():301] send: summary
+2022-09-29 15:24:56,813 INFO    SenderThread:26798 [sender.py:_save_file():1155] saving file wandb-summary.json with policy end
+2022-09-29 15:24:57,795 INFO    Thread-28 :26798 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/jovyan/sungjun/wandb/run-20220929_152446-27jbvsci/files/wandb-summary.json
+2022-09-29 15:24:58,062 DEBUG   HandlerThread:26798 [handler.py:handle_request():138] handle_request: partial_history
+2022-09-29 15:24:58,063 DEBUG   SenderThread:26798 [sender.py:send():301] send: metric
+2022-09-29 15:24:58,065 DEBUG   SenderThread:26798 [sender.py:send():301] send: metric
+2022-09-29 15:24:58,065 WARNING SenderThread:26798 [sender.py:send_metric():1111] Seen metric with glob (shouldn't happen)
+2022-09-29 15:24:58,065 DEBUG   SenderThread:26798 [sender.py:send():301] send: history
+2022-09-29 15:24:58,065 DEBUG   SenderThread:26798 [sender.py:send():301] send: summary
+2022-09-29 15:24:58,072 INFO    SenderThread:26798 [sender.py:_save_file():1155] saving file wandb-summary.json with policy end
+2022-09-29 15:24:58,796 INFO    Thread-28 :26798 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/jovyan/sungjun/wandb/run-20220929_152446-27jbvsci/files/wandb-summary.json
+2022-09-29 15:24:59,393 DEBUG   SenderThread:26798 [sender.py:send():301] send: metric
+2022-09-29 15:24:59,435 DEBUG   HandlerThread:26798 [handler.py:handle_request():138] handle_request: partial_history
+2022-09-29 15:24:59,435 DEBUG   SenderThread:26798 [sender.py:send():301] send: metric
+2022-09-29 15:24:59,437 WARNING SenderThread:26798 [sender.py:send_metric():1111] Seen metric with glob (shouldn't happen)
+2022-09-29 15:24:59,437 DEBUG   SenderThread:26798 [sender.py:send():301] send: history
+2022-09-29 15:24:59,437 DEBUG   SenderThread:26798 [sender.py:send():301] send: summary
+2022-09-29 15:24:59,439 INFO    SenderThread:26798 [sender.py:_save_file():1155] saving file wandb-summary.json with policy end
+2022-09-29 15:24:59,797 INFO    Thread-28 :26798 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/jovyan/sungjun/wandb/run-20220929_152446-27jbvsci/files/wandb-summary.json
+2022-09-29 15:25:00,791 DEBUG   HandlerThread:26798 [handler.py:handle_request():138] handle_request: partial_history
+2022-09-29 15:25:00,792 DEBUG   SenderThread:26798 [sender.py:send():301] send: metric
+2022-09-29 15:25:00,794 DEBUG   SenderThread:26798 [sender.py:send():301] send: metric
+2022-09-29 15:25:00,794 WARNING SenderThread:26798 [sender.py:send_metric():1111] Seen metric with glob (shouldn't happen)
+2022-09-29 15:25:00,794 DEBUG   SenderThread:26798 [sender.py:send():301] send: history
+2022-09-29 15:25:00,795 DEBUG   SenderThread:26798 [sender.py:send():301] send: summary
+2022-09-29 15:25:00,801 INFO    SenderThread:26798 [sender.py:_save_file():1155] saving file wandb-summary.json with policy end
+2022-09-29 15:25:00,802 INFO    Thread-28 :26798 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/jovyan/sungjun/wandb/run-20220929_152446-27jbvsci/files/wandb-summary.json
+2022-09-29 15:25:00,864 DEBUG   SenderThread:26798 [sender.py:send():301] send: stats
+2022-09-29 15:25:02,107 DEBUG   HandlerThread:26798 [handler.py:handle_request():138] handle_request: partial_history
+2022-09-29 15:25:02,108 DEBUG   SenderThread:26798 [sender.py:send():301] send: metric
+2022-09-29 15:25:02,110 DEBUG   SenderThread:26798 [sender.py:send():301] send: metric
+2022-09-29 15:25:02,110 WARNING SenderThread:26798 [sender.py:send_metric():1111] Seen metric with glob (shouldn't happen)
+2022-09-29 15:25:02,110 DEBUG   SenderThread:26798 [sender.py:send():301] send: history
+2022-09-29 15:25:02,111 DEBUG   SenderThread:26798 [sender.py:send():301] send: summary
+2022-09-29 15:25:02,112 INFO    SenderThread:26798 [sender.py:_save_file():1155] saving file wandb-summary.json with policy end
+2022-09-29 15:25:02,459 INFO    Thread-13 :26798 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/jovyan/sungjun/wandb/run-20220929_152431-3dirqv6x/files/config.yaml
+2022-09-29 15:25:02,805 INFO    Thread-28 :26798 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/jovyan/sungjun/wandb/run-20220929_152446-27jbvsci/files/wandb-summary.json
+2022-09-29 15:25:03,069 DEBUG   HandlerThread:26798 [handler.py:handle_request():138] handle_request: stop_status
+2022-09-29 15:25:03,070 DEBUG   SenderThread:26798 [sender.py:send_request():315] send_request: stop_status
+2022-09-29 15:25:03,398 DEBUG   HandlerThread:26798 [handler.py:handle_request():138] handle_request: partial_history
+2022-09-29 15:25:03,399 DEBUG   SenderThread:26798 [sender.py:send():301] send: metric
+2022-09-29 15:25:03,401 DEBUG   SenderThread:26798 [sender.py:send():301] send: metric
+2022-09-29 15:25:03,401 WARNING SenderThread:26798 [sender.py:send_metric():1111] Seen metric with glob (shouldn't happen)
+2022-09-29 15:25:03,401 DEBUG   SenderThread:26798 [sender.py:send():301] send: history
+2022-09-29 15:25:03,401 DEBUG   SenderThread:26798 [sender.py:send():301] send: summary
+2022-09-29 15:25:03,407 INFO    SenderThread:26798 [sender.py:_save_file():1155] saving file wandb-summary.json with policy end
+2022-09-29 15:25:03,759 DEBUG   HandlerThread:26798 [handler.py:handle_request():138] handle_request: stop_status
+2022-09-29 15:25:03,759 DEBUG   SenderThread:26798 [sender.py:send_request():315] send_request: stop_status
+2022-09-29 15:25:03,806 INFO    Thread-28 :26798 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/jovyan/sungjun/wandb/run-20220929_152446-27jbvsci/files/wandb-summary.json
+2022-09-29 15:25:04,652 DEBUG   HandlerThread:26798 [handler.py:handle_request():138] handle_request: partial_history
+2022-09-29 15:25:04,652 DEBUG   SenderThread:26798 [sender.py:send():301] send: metric
+2022-09-29 15:25:04,655 DEBUG   SenderThread:26798 [sender.py:send():301] send: metric
+2022-09-29 15:25:04,655 WARNING SenderThread:26798 [sender.py:send_metric():1111] Seen metric with glob (shouldn't happen)
+2022-09-29 15:25:04,655 DEBUG   SenderThread:26798 [sender.py:send():301] send: history
+2022-09-29 15:25:04,655 DEBUG   SenderThread:26798 [sender.py:send():301] send: summary
+2022-09-29 15:25:04,657 INFO    SenderThread:26798 [sender.py:_save_file():1155] saving file wandb-summary.json with policy end
+2022-09-29 15:25:04,807 INFO    Thread-28 :26798 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/jovyan/sungjun/wandb/run-20220929_152446-27jbvsci/files/wandb-summary.json
+2022-09-29 15:25:06,040 DEBUG   HandlerThread:26798 [handler.py:handle_request():138] handle_request: partial_history
+2022-09-29 15:25:06,041 DEBUG   SenderThread:26798 [sender.py:send():301] send: metric
+2022-09-29 15:25:06,043 DEBUG   SenderThread:26798 [sender.py:send():301] send: metric
+2022-09-29 15:25:06,043 WARNING SenderThread:26798 [sender.py:send_metric():1111] Seen metric with glob (shouldn't happen)
+2022-09-29 15:25:06,043 DEBUG   SenderThread:26798 [sender.py:send():301] send: history
+2022-09-29 15:25:06,044 DEBUG   SenderThread:26798 [sender.py:send():301] send: summary
+2022-09-29 15:25:06,050 INFO    SenderThread:26798 [sender.py:_save_file():1155] saving file wandb-summary.json with policy end
+2022-09-29 15:25:06,679 DEBUG   HandlerThread:26798 [handler.py:handle_request():138] handle_request: partial_history
+2022-09-29 15:25:06,680 DEBUG   SenderThread:26798 [sender.py:send():301] send: metric
+2022-09-29 15:25:06,683 DEBUG   SenderThread:26798 [sender.py:send():301] send: metric
+2022-09-29 15:25:06,683 WARNING SenderThread:26798 [sender.py:send_metric():1111] Seen metric with glob (shouldn't happen)
+2022-09-29 15:25:06,683 DEBUG   SenderThread:26798 [sender.py:send():301] send: history
+2022-09-29 15:25:06,683 DEBUG   SenderThread:26798 [sender.py:send():301] send: summary
+2022-09-29 15:25:06,685 INFO    SenderThread:26798 [sender.py:_save_file():1155] saving file wandb-summary.json with policy end
+2022-09-29 15:25:06,809 INFO    Thread-28 :26798 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/jovyan/sungjun/wandb/run-20220929_152446-27jbvsci/files/wandb-summary.json
+2022-09-29 15:25:06,815 DEBUG   HandlerThread:26798 [handler.py:handle_request():138] handle_request: partial_history
+2022-09-29 15:25:06,815 DEBUG   SenderThread:26798 [sender.py:send():301] send: metric
+2022-09-29 15:25:06,818 DEBUG   SenderThread:26798 [sender.py:send():301] send: metric
+2022-09-29 15:25:06,818 WARNING SenderThread:26798 [sender.py:send_metric():1111] Seen metric with glob (shouldn't happen)
+2022-09-29 15:25:06,818 DEBUG   SenderThread:26798 [sender.py:send():301] send: history
+2022-09-29 15:25:06,818 DEBUG   SenderThread:26798 [sender.py:send():301] send: summary
+2022-09-29 15:25:06,820 INFO    SenderThread:26798 [sender.py:_save_file():1155] saving file wandb-summary.json with policy end
+2022-09-29 15:25:07,810 INFO    Thread-28 :26798 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/jovyan/sungjun/wandb/run-20220929_152446-27jbvsci/files/wandb-summary.json
+2022-09-29 15:25:08,086 DEBUG   HandlerThread:26798 [handler.py:handle_request():138] handle_request: partial_history
+2022-09-29 15:25:08,087 DEBUG   SenderThread:26798 [sender.py:send():301] send: metric
+2022-09-29 15:25:08,089 DEBUG   SenderThread:26798 [sender.py:send():301] send: metric
+2022-09-29 15:25:08,089 WARNING SenderThread:26798 [sender.py:send_metric():1111] Seen metric with glob (shouldn't happen)
+2022-09-29 15:25:08,089 DEBUG   SenderThread:26798 [sender.py:send():301] send: history
+2022-09-29 15:25:08,089 DEBUG   SenderThread:26798 [sender.py:send():301] send: summary
+2022-09-29 15:25:08,096 INFO    SenderThread:26798 [sender.py:_save_file():1155] saving file wandb-summary.json with policy end
+2022-09-29 15:25:08,812 INFO    Thread-28 :26798 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/jovyan/sungjun/wandb/run-20220929_152446-27jbvsci/files/wandb-summary.json
+2022-09-29 15:25:09,403 DEBUG   HandlerThread:26798 [handler.py:handle_request():138] handle_request: partial_history
+2022-09-29 15:25:09,404 DEBUG   SenderThread:26798 [sender.py:send():301] send: metric
+2022-09-29 15:25:09,406 DEBUG   SenderThread:26798 [sender.py:send():301] send: metric
+2022-09-29 15:25:09,406 WARNING SenderThread:26798 [sender.py:send_metric():1111] Seen metric with glob (shouldn't happen)
+2022-09-29 15:25:09,406 DEBUG   SenderThread:26798 [sender.py:send():301] send: history
+2022-09-29 15:25:09,406 DEBUG   SenderThread:26798 [sender.py:send():301] send: summary
+2022-09-29 15:25:09,408 INFO    SenderThread:26798 [sender.py:_save_file():1155] saving file wandb-summary.json with policy end
+2022-09-29 15:25:09,813 INFO    Thread-28 :26798 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/jovyan/sungjun/wandb/run-20220929_152446-27jbvsci/files/wandb-summary.json
+2022-09-29 15:25:10,754 DEBUG   SenderThread:26798 [sender.py:send():301] send: metric
+2022-09-29 15:25:10,756 DEBUG   HandlerThread:26798 [handler.py:handle_request():138] handle_request: partial_history
+2022-09-29 15:25:10,757 DEBUG   SenderThread:26798 [sender.py:send():301] send: metric
+2022-09-29 15:25:10,758 WARNING SenderThread:26798 [sender.py:send_metric():1111] Seen metric with glob (shouldn't happen)
+2022-09-29 15:25:10,758 DEBUG   SenderThread:26798 [sender.py:send():301] send: history
+2022-09-29 15:25:10,759 DEBUG   SenderThread:26798 [sender.py:send():301] send: summary
+2022-09-29 15:25:10,766 INFO    SenderThread:26798 [sender.py:_save_file():1155] saving file wandb-summary.json with policy end
+2022-09-29 15:25:10,814 INFO    Thread-28 :26798 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/jovyan/sungjun/wandb/run-20220929_152446-27jbvsci/files/wandb-summary.json
+2022-09-29 15:25:12,046 DEBUG   SenderThread:26798 [sender.py:send():301] send: metric
+2022-09-29 15:25:12,046 DEBUG   HandlerThread:26798 [handler.py:handle_request():138] handle_request: partial_history
+2022-09-29 15:25:12,047 DEBUG   SenderThread:26798 [sender.py:send():301] send: metric
+2022-09-29 15:25:12,048 WARNING SenderThread:26798 [sender.py:send_metric():1111] Seen metric with glob (shouldn't happen)
+2022-09-29 15:25:12,048 DEBUG   SenderThread:26798 [sender.py:send():301] send: history
+2022-09-29 15:25:12,048 DEBUG   SenderThread:26798 [sender.py:send():301] send: summary
+2022-09-29 15:25:12,050 INFO    SenderThread:26798 [sender.py:_save_file():1155] saving file wandb-summary.json with policy end
+2022-09-29 15:25:12,816 INFO    Thread-28 :26798 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/jovyan/sungjun/wandb/run-20220929_152446-27jbvsci/files/wandb-summary.json
+2022-09-29 15:25:13,385 DEBUG   HandlerThread:26798 [handler.py:handle_request():138] handle_request: partial_history
+2022-09-29 15:25:13,386 DEBUG   SenderThread:26798 [sender.py:send():301] send: metric
+2022-09-29 15:25:13,388 DEBUG   SenderThread:26798 [sender.py:send():301] send: metric
+2022-09-29 15:25:13,388 WARNING SenderThread:26798 [sender.py:send_metric():1111] Seen metric with glob (shouldn't happen)
+2022-09-29 15:25:13,388 DEBUG   SenderThread:26798 [sender.py:send():301] send: history
+2022-09-29 15:25:13,388 DEBUG   SenderThread:26798 [sender.py:send():301] send: summary
+2022-09-29 15:25:13,395 INFO    SenderThread:26798 [sender.py:_save_file():1155] saving file wandb-summary.json with policy end
+2022-09-29 15:25:13,817 INFO    Thread-28 :26798 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/jovyan/sungjun/wandb/run-20220929_152446-27jbvsci/files/wandb-summary.json
+2022-09-29 15:25:14,675 DEBUG   HandlerThread:26798 [handler.py:handle_request():138] handle_request: partial_history
+2022-09-29 15:25:14,675 DEBUG   SenderThread:26798 [sender.py:send():301] send: metric
+2022-09-29 15:25:14,677 DEBUG   SenderThread:26798 [sender.py:send():301] send: metric
+2022-09-29 15:25:14,677 WARNING SenderThread:26798 [sender.py:send_metric():1111] Seen metric with glob (shouldn't happen)
+2022-09-29 15:25:14,677 DEBUG   SenderThread:26798 [sender.py:send():301] send: history
+2022-09-29 15:25:14,678 DEBUG   SenderThread:26798 [sender.py:send():301] send: summary
+2022-09-29 15:25:14,679 INFO    SenderThread:26798 [sender.py:_save_file():1155] saving file wandb-summary.json with policy end
+2022-09-29 15:25:14,818 INFO    Thread-28 :26798 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/jovyan/sungjun/wandb/run-20220929_152446-27jbvsci/files/wandb-summary.json
+2022-09-29 15:25:15,830 DEBUG   HandlerThread:26798 [handler.py:handle_request():138] handle_request: poll_exit
+2022-09-29 15:25:15,831 DEBUG   SenderThread:26798 [sender.py:send():301] send: exit
+2022-09-29 15:25:15,831 DEBUG   SenderThread:26798 [sender.py:send():301] send: exit
+2022-09-29 15:25:15,831 INFO    SenderThread:26798 [sender.py:send_exit():437] handling exit code: 1
+2022-09-29 15:25:15,832 INFO    SenderThread:26798 [sender.py:send_exit():437] handling exit code: 1
+2022-09-29 15:25:15,832 INFO    SenderThread:26798 [sender.py:send_exit():439] handling runtime: 28
+2022-09-29 15:25:15,832 INFO    SenderThread:26798 [sender.py:send_exit():439] handling runtime: 43
+2022-09-29 15:25:15,844 INFO    SenderThread:26798 [sender.py:_save_file():1155] saving file wandb-summary.json with policy end
+2022-09-29 15:25:15,844 INFO    SenderThread:26798 [sender.py:_save_file():1155] saving file wandb-summary.json with policy end
+2022-09-29 15:25:15,845 INFO    SenderThread:26798 [sender.py:send_exit():445] send defer
+2022-09-29 15:25:15,845 INFO    SenderThread:26798 [sender.py:send_exit():445] send defer
+2022-09-29 15:25:15,845 DEBUG   SenderThread:26798 [sender.py:send_request():315] send_request: poll_exit
+2022-09-29 15:25:15,847 DEBUG   HandlerThread:26798 [handler.py:handle_request():138] handle_request: defer
+2022-09-29 15:25:15,847 INFO    HandlerThread:26798 [handler.py:handle_request_defer():161] handle defer: 0
+2022-09-29 15:25:15,848 DEBUG   HandlerThread:26798 [handler.py:handle_request():138] handle_request: defer
+2022-09-29 15:25:15,849 DEBUG   SenderThread:26798 [sender.py:send_request():315] send_request: defer
+2022-09-29 15:25:15,849 INFO    HandlerThread:26798 [handler.py:handle_request_defer():161] handle defer: 0
+2022-09-29 15:25:15,849 INFO    SenderThread:26798 [sender.py:send_request_defer():454] handle sender defer: 0
+2022-09-29 15:25:15,849 INFO    SenderThread:26798 [sender.py:transition_state():458] send defer: 1
+2022-09-29 15:25:15,850 DEBUG   HandlerThread:26798 [handler.py:handle_request():138] handle_request: poll_exit
+2022-09-29 15:25:15,850 DEBUG   SenderThread:26798 [sender.py:send_request():315] send_request: defer
+2022-09-29 15:25:15,851 DEBUG   HandlerThread:26798 [handler.py:handle_request():138] handle_request: defer
+2022-09-29 15:25:15,851 DEBUG   SenderThread:26798 [sender.py:send_request():315] send_request: poll_exit
+2022-09-29 15:25:15,851 INFO    SenderThread:26798 [sender.py:send_request_defer():454] handle sender defer: 0
+2022-09-29 15:25:15,851 INFO    HandlerThread:26798 [handler.py:handle_request_defer():161] handle defer: 1
+2022-09-29 15:25:15,852 INFO    SenderThread:26798 [sender.py:transition_state():458] send defer: 1
+2022-09-29 15:25:15,853 DEBUG   HandlerThread:26798 [handler.py:handle_request():138] handle_request: defer
+2022-09-29 15:25:15,854 INFO    HandlerThread:26798 [handler.py:handle_request_defer():161] handle defer: 1
+2022-09-29 15:25:15,915 DEBUG   SenderThread:26798 [sender.py:send_request():315] send_request: defer
+2022-09-29 15:25:15,917 INFO    SenderThread:26798 [sender.py:send_request_defer():454] handle sender defer: 1
+2022-09-29 15:25:15,917 INFO    SenderThread:26798 [sender.py:transition_state():458] send defer: 2
+2022-09-29 15:25:15,917 DEBUG   SenderThread:26798 [sender.py:send():301] send: stats
+2022-09-29 15:25:15,918 DEBUG   HandlerThread:26798 [handler.py:handle_request():138] handle_request: defer
+2022-09-29 15:25:15,918 INFO    HandlerThread:26798 [handler.py:handle_request_defer():161] handle defer: 2
+2022-09-29 15:25:15,919 DEBUG   SenderThread:26798 [sender.py:send_request():315] send_request: defer
+2022-09-29 15:25:15,919 INFO    SenderThread:26798 [sender.py:send_request_defer():454] handle sender defer: 2
+2022-09-29 15:25:15,919 INFO    SenderThread:26798 [sender.py:transition_state():458] send defer: 3
+2022-09-29 15:25:15,920 DEBUG   HandlerThread:26798 [handler.py:handle_request():138] handle_request: defer
+2022-09-29 15:25:15,920 INFO    HandlerThread:26798 [handler.py:handle_request_defer():161] handle defer: 3
+2022-09-29 15:25:15,920 DEBUG   SenderThread:26798 [sender.py:send_request():315] send_request: defer
+2022-09-29 15:25:15,920 INFO    SenderThread:26798 [sender.py:send_request_defer():454] handle sender defer: 3
+2022-09-29 15:25:15,920 INFO    SenderThread:26798 [sender.py:transition_state():458] send defer: 4
+2022-09-29 15:25:15,921 DEBUG   HandlerThread:26798 [handler.py:handle_request():138] handle_request: defer
+2022-09-29 15:25:15,921 INFO    HandlerThread:26798 [handler.py:handle_request_defer():161] handle defer: 4
+2022-09-29 15:25:15,921 DEBUG   SenderThread:26798 [sender.py:send():301] send: summary
+2022-09-29 15:25:15,923 INFO    SenderThread:26798 [sender.py:_save_file():1155] saving file wandb-summary.json with policy end
+2022-09-29 15:25:15,923 DEBUG   SenderThread:26798 [sender.py:send_request():315] send_request: defer
+2022-09-29 15:25:15,923 INFO    SenderThread:26798 [sender.py:send_request_defer():454] handle sender defer: 4
+2022-09-29 15:25:15,924 INFO    SenderThread:26798 [sender.py:transition_state():458] send defer: 5
+2022-09-29 15:25:15,924 DEBUG   HandlerThread:26798 [handler.py:handle_request():138] handle_request: defer
+2022-09-29 15:25:15,924 INFO    HandlerThread:26798 [handler.py:handle_request_defer():161] handle defer: 5
+2022-09-29 15:25:15,925 DEBUG   SenderThread:26798 [sender.py:send_request():315] send_request: defer
+2022-09-29 15:25:15,925 INFO    SenderThread:26798 [sender.py:send_request_defer():454] handle sender defer: 5
+2022-09-29 15:25:15,925 INFO    SenderThread:26798 [sender.py:transition_state():458] send defer: 6
+2022-09-29 15:25:15,925 DEBUG   HandlerThread:26798 [handler.py:handle_request():138] handle_request: defer
+2022-09-29 15:25:15,925 INFO    HandlerThread:26798 [handler.py:handle_request_defer():161] handle defer: 6
+2022-09-29 15:25:15,926 DEBUG   SenderThread:26798 [sender.py:send_request():315] send_request: defer
+2022-09-29 15:25:15,926 INFO    SenderThread:26798 [sender.py:send_request_defer():454] handle sender defer: 6
+2022-09-29 15:25:15,939 DEBUG   SenderThread:26798 [sender.py:send_request():315] send_request: defer
+2022-09-29 15:25:15,940 INFO    SenderThread:26798 [sender.py:send_request_defer():454] handle sender defer: 1
+2022-09-29 15:25:15,940 INFO    SenderThread:26798 [sender.py:transition_state():458] send defer: 2
+2022-09-29 15:25:15,940 DEBUG   SenderThread:26798 [sender.py:send():301] send: stats
+2022-09-29 15:25:15,941 DEBUG   HandlerThread:26798 [handler.py:handle_request():138] handle_request: defer
+2022-09-29 15:25:15,942 INFO    HandlerThread:26798 [handler.py:handle_request_defer():161] handle defer: 2
+2022-09-29 15:25:15,942 DEBUG   SenderThread:26798 [sender.py:send_request():315] send_request: defer
+2022-09-29 15:25:15,942 INFO    SenderThread:26798 [sender.py:send_request_defer():454] handle sender defer: 2
+2022-09-29 15:25:15,942 INFO    SenderThread:26798 [sender.py:transition_state():458] send defer: 3
+2022-09-29 15:25:15,943 DEBUG   HandlerThread:26798 [handler.py:handle_request():138] handle_request: defer
+2022-09-29 15:25:15,943 INFO    HandlerThread:26798 [handler.py:handle_request_defer():161] handle defer: 3
+2022-09-29 15:25:15,943 DEBUG   SenderThread:26798 [sender.py:send_request():315] send_request: defer
+2022-09-29 15:25:15,943 INFO    SenderThread:26798 [sender.py:send_request_defer():454] handle sender defer: 3
+2022-09-29 15:25:15,944 INFO    SenderThread:26798 [sender.py:transition_state():458] send defer: 4
+2022-09-29 15:25:15,944 DEBUG   HandlerThread:26798 [handler.py:handle_request():138] handle_request: defer
+2022-09-29 15:25:15,944 INFO    HandlerThread:26798 [handler.py:handle_request_defer():161] handle defer: 4
+2022-09-29 15:25:15,945 DEBUG   SenderThread:26798 [sender.py:send():301] send: summary
+2022-09-29 15:25:15,946 INFO    SenderThread:26798 [sender.py:_save_file():1155] saving file wandb-summary.json with policy end
+2022-09-29 15:25:15,947 DEBUG   SenderThread:26798 [sender.py:send_request():315] send_request: defer
+2022-09-29 15:25:15,947 INFO    SenderThread:26798 [sender.py:send_request_defer():454] handle sender defer: 4
+2022-09-29 15:25:15,947 INFO    SenderThread:26798 [sender.py:transition_state():458] send defer: 5
+2022-09-29 15:25:15,948 DEBUG   HandlerThread:26798 [handler.py:handle_request():138] handle_request: defer
+2022-09-29 15:25:15,948 INFO    HandlerThread:26798 [handler.py:handle_request_defer():161] handle defer: 5
+2022-09-29 15:25:15,948 DEBUG   SenderThread:26798 [sender.py:send_request():315] send_request: defer
+2022-09-29 15:25:15,948 INFO    SenderThread:26798 [sender.py:send_request_defer():454] handle sender defer: 5
+2022-09-29 15:25:15,962 DEBUG   HandlerThread:26798 [handler.py:handle_request():138] handle_request: poll_exit
+2022-09-29 15:25:16,206 INFO    SenderThread:26798 [sender.py:transition_state():458] send defer: 6
+2022-09-29 15:25:16,207 DEBUG   HandlerThread:26798 [handler.py:handle_request():138] handle_request: defer
+2022-09-29 15:25:16,207 INFO    HandlerThread:26798 [handler.py:handle_request_defer():161] handle defer: 6
+2022-09-29 15:25:16,208 DEBUG   SenderThread:26798 [sender.py:send_request():315] send_request: defer
+2022-09-29 15:25:16,208 INFO    SenderThread:26798 [sender.py:send_request_defer():454] handle sender defer: 6
+2022-09-29 15:25:16,472 INFO    Thread-13 :26798 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/jovyan/sungjun/wandb/run-20220929_152431-3dirqv6x/files/wandb-summary.json
+2022-09-29 15:25:16,472 INFO    Thread-13 :26798 [dir_watcher.py:_on_file_created():275] file/dir created: /home/jovyan/sungjun/wandb/run-20220929_152431-3dirqv6x/files/output.log
+2022-09-29 15:25:16,820 INFO    Thread-28 :26798 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/jovyan/sungjun/wandb/run-20220929_152446-27jbvsci/files/config.yaml
+2022-09-29 15:25:16,821 INFO    Thread-28 :26798 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/jovyan/sungjun/wandb/run-20220929_152446-27jbvsci/files/wandb-summary.json
+2022-09-29 15:25:17,826 INFO    SenderThread:26798 [sender.py:transition_state():458] send defer: 7
+2022-09-29 15:25:17,826 DEBUG   SenderThread:26798 [sender.py:send_request():315] send_request: poll_exit
+2022-09-29 15:25:17,827 DEBUG   HandlerThread:26798 [handler.py:handle_request():138] handle_request: defer
+2022-09-29 15:25:17,828 INFO    HandlerThread:26798 [handler.py:handle_request_defer():161] handle defer: 7
+2022-09-29 15:25:17,828 DEBUG   SenderThread:26798 [sender.py:send_request():315] send_request: defer
+2022-09-29 15:25:17,829 INFO    SenderThread:26798 [sender.py:send_request_defer():454] handle sender defer: 7
+2022-09-29 15:25:17,829 INFO    SenderThread:26798 [dir_watcher.py:finish():362] shutting down directory watcher
+2022-09-29 15:25:17,830 DEBUG   HandlerThread:26798 [handler.py:handle_request():138] handle_request: poll_exit
+2022-09-29 15:25:18,144 INFO    SenderThread:26798 [sender.py:transition_state():458] send defer: 7
+2022-09-29 15:25:18,145 DEBUG   SenderThread:26798 [sender.py:send_request():315] send_request: poll_exit
+2022-09-29 15:25:18,146 DEBUG   HandlerThread:26798 [handler.py:handle_request():138] handle_request: defer
+2022-09-29 15:25:18,147 INFO    HandlerThread:26798 [handler.py:handle_request_defer():161] handle defer: 7
+2022-09-29 15:25:18,147 DEBUG   SenderThread:26798 [sender.py:send_request():315] send_request: defer
+2022-09-29 15:25:18,148 INFO    SenderThread:26798 [sender.py:send_request_defer():454] handle sender defer: 7
+2022-09-29 15:25:18,148 INFO    SenderThread:26798 [dir_watcher.py:finish():362] shutting down directory watcher
+2022-09-29 15:25:18,475 INFO    SenderThread:26798 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/jovyan/sungjun/wandb/run-20220929_152431-3dirqv6x/files/output.log
+2022-09-29 15:25:18,475 INFO    SenderThread:26798 [dir_watcher.py:finish():392] scan: /home/jovyan/sungjun/wandb/run-20220929_152431-3dirqv6x/files
+2022-09-29 15:25:18,476 INFO    SenderThread:26798 [dir_watcher.py:finish():406] scan save: /home/jovyan/sungjun/wandb/run-20220929_152431-3dirqv6x/files/config.yaml config.yaml
+2022-09-29 15:25:18,476 INFO    SenderThread:26798 [dir_watcher.py:finish():406] scan save: /home/jovyan/sungjun/wandb/run-20220929_152431-3dirqv6x/files/output.log output.log
+2022-09-29 15:25:18,476 INFO    SenderThread:26798 [dir_watcher.py:finish():406] scan save: /home/jovyan/sungjun/wandb/run-20220929_152431-3dirqv6x/files/requirements.txt requirements.txt
+2022-09-29 15:25:18,492 INFO    SenderThread:26798 [dir_watcher.py:finish():406] scan save: /home/jovyan/sungjun/wandb/run-20220929_152431-3dirqv6x/files/wandb-metadata.json wandb-metadata.json
+2022-09-29 15:25:18,496 INFO    SenderThread:26798 [dir_watcher.py:finish():406] scan save: /home/jovyan/sungjun/wandb/run-20220929_152431-3dirqv6x/files/wandb-summary.json wandb-summary.json
+2022-09-29 15:25:18,505 INFO    SenderThread:26798 [sender.py:transition_state():458] send defer: 8
+2022-09-29 15:25:18,507 DEBUG   HandlerThread:26798 [handler.py:handle_request():138] handle_request: defer
+2022-09-29 15:25:18,508 INFO    HandlerThread:26798 [handler.py:handle_request_defer():161] handle defer: 8
+2022-09-29 15:25:18,518 DEBUG   SenderThread:26798 [sender.py:send_request():315] send_request: defer
+2022-09-29 15:25:18,519 INFO    SenderThread:26798 [sender.py:send_request_defer():454] handle sender defer: 8
+2022-09-29 15:25:18,519 INFO    SenderThread:26798 [file_pusher.py:finish():168] shutting down file pusher
+2022-09-29 15:25:18,826 INFO    SenderThread:26798 [dir_watcher.py:finish():392] scan: /home/jovyan/sungjun/wandb/run-20220929_152446-27jbvsci/files
+2022-09-29 15:25:18,827 INFO    SenderThread:26798 [dir_watcher.py:finish():406] scan save: /home/jovyan/sungjun/wandb/run-20220929_152446-27jbvsci/files/config.yaml config.yaml
+2022-09-29 15:25:18,827 INFO    SenderThread:26798 [dir_watcher.py:finish():406] scan save: /home/jovyan/sungjun/wandb/run-20220929_152446-27jbvsci/files/output.log output.log
+2022-09-29 15:25:18,834 INFO    SenderThread:26798 [dir_watcher.py:finish():406] scan save: /home/jovyan/sungjun/wandb/run-20220929_152446-27jbvsci/files/requirements.txt requirements.txt
+2022-09-29 15:25:18,839 INFO    SenderThread:26798 [dir_watcher.py:finish():406] scan save: /home/jovyan/sungjun/wandb/run-20220929_152446-27jbvsci/files/wandb-metadata.json wandb-metadata.json
+2022-09-29 15:25:18,839 INFO    SenderThread:26798 [dir_watcher.py:finish():406] scan save: /home/jovyan/sungjun/wandb/run-20220929_152446-27jbvsci/files/wandb-summary.json wandb-summary.json
+2022-09-29 15:25:18,845 INFO    SenderThread:26798 [sender.py:transition_state():458] send defer: 8
+2022-09-29 15:25:18,861 DEBUG   HandlerThread:26798 [handler.py:handle_request():138] handle_request: defer
+2022-09-29 15:25:18,862 INFO    HandlerThread:26798 [handler.py:handle_request_defer():161] handle defer: 8
+2022-09-29 15:25:18,862 DEBUG   SenderThread:26798 [sender.py:send_request():315] send_request: defer
+2022-09-29 15:25:18,863 INFO    SenderThread:26798 [sender.py:send_request_defer():454] handle sender defer: 8
+2022-09-29 15:25:18,864 INFO    SenderThread:26798 [file_pusher.py:finish():168] shutting down file pusher
+2022-09-29 15:25:18,999 INFO    MainThread:26798 [internal.py:handle_exit():78] Internal process exited
+2022-09-29 15:25:18,999 INFO    MainThread:26798 [internal.py:handle_exit():78] Internal process exited
+2022-09-29 15:25:19,000 WARNING MsgRouterThr:26798 [router.py:message_loop():74] EOFError seen in message_loop
+2022-09-29 15:25:19,000 WARNING MsgRouterThr:26798 [router.py:message_loop():74] EOFError seen in message_loop

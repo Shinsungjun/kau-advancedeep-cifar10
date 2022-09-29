@@ -1,0 +1,27 @@
+/home/jovyan/.venv/torch1.10.0-py3.8-cuda11.3/lib/python3.8/site-packages/pytorch_lightning/trainer/trainer.py:688: UserWarning: Detected KeyboardInterrupt, attempting graceful shutdown...
+  rank_zero_warn("Detected KeyboardInterrupt, attempting graceful shutdown...")
+Restoring states from the checkpoint path at 64
+Traceback (most recent call last):
+  File "train.py", line 49, in <module>
+    main()
+  File "train.py", line 46, in main
+    trainer.test(model, DataLoader(test_set), batch_size = batch_size)
+  File "/home/jovyan/.venv/torch1.10.0-py3.8-cuda11.3/lib/python3.8/site-packages/pytorch_lightning/trainer/trainer.py", line 911, in test
+    return self._call_and_handle_interrupt(self._test_impl, model, dataloaders, ckpt_path, verbose, datamodule)
+  File "/home/jovyan/.venv/torch1.10.0-py3.8-cuda11.3/lib/python3.8/site-packages/pytorch_lightning/trainer/trainer.py", line 685, in _call_and_handle_interrupt
+    return trainer_fn(*args, **kwargs)
+  File "/home/jovyan/.venv/torch1.10.0-py3.8-cuda11.3/lib/python3.8/site-packages/pytorch_lightning/trainer/trainer.py", line 954, in _test_impl
+    results = self._run(model, ckpt_path=self.tested_ckpt_path)
+  File "/home/jovyan/.venv/torch1.10.0-py3.8-cuda11.3/lib/python3.8/site-packages/pytorch_lightning/trainer/trainer.py", line 1142, in _run
+    self._restore_modules_and_callbacks(ckpt_path)
+  File "/home/jovyan/.venv/torch1.10.0-py3.8-cuda11.3/lib/python3.8/site-packages/pytorch_lightning/trainer/trainer.py", line 1108, in _restore_modules_and_callbacks
+    self.checkpoint_connector.resume_start(checkpoint_path)
+  File "/home/jovyan/.venv/torch1.10.0-py3.8-cuda11.3/lib/python3.8/site-packages/pytorch_lightning/trainer/connectors/checkpoint_connector.py", line 79, in resume_start
+    self._loaded_checkpoint = self._load_and_validate_checkpoint(checkpoint_path)
+  File "/home/jovyan/.venv/torch1.10.0-py3.8-cuda11.3/lib/python3.8/site-packages/pytorch_lightning/trainer/connectors/checkpoint_connector.py", line 83, in _load_and_validate_checkpoint
+    loaded_checkpoint = self.trainer.training_type_plugin.load_checkpoint(checkpoint_path)
+  File "/home/jovyan/.venv/torch1.10.0-py3.8-cuda11.3/lib/python3.8/site-packages/pytorch_lightning/plugins/training_type/training_type_plugin.py", line 190, in load_checkpoint
+    return self.checkpoint_io.load_checkpoint(checkpoint_path)
+  File "/home/jovyan/.venv/torch1.10.0-py3.8-cuda11.3/lib/python3.8/site-packages/pytorch_lightning/plugins/io/torch_plugin.py", line 66, in load_checkpoint
+    raise FileNotFoundError(f"Checkpoint at {path} not found. Aborting training.")
+FileNotFoundError: Checkpoint at 64 not found. Aborting training.
